@@ -1,0 +1,29 @@
+
+//
+// VARIABLES
+//
+
+// Colors
+$accent: var(--ACCENT);
+
+// Grays
+$black: var(--PRIMARY-TEXT-COLOR);
+$darkerGray: var(--PRIMARY-TEXT-COLOR);
+$darkGray: var(--PRIMARY-GREY);
+$gray: var(--PRIMARY-TEXT-COLOR);
+$lightGray: var(--SECONDARY-GREY);
+$white: var(--WHITE);
+
+// Font stacks
+$helvetica: Helvetica, Arial, sans-serif;
+$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$georgia: Georgia, serif;
+$cG: 'Cormorant Garamond', serif;
+$interFont: 'Inter', sans-serif;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 1280px) {
+    @content;
+  }
+}

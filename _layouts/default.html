@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html data-theme="light">
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/light.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="icon" href="{{ site.baseurl }}/images/logo.png" />
+
+  </head>
+
+  <body>
+    <div class="main-wrapper">
+      <div class="wrapper-masthead">
+        <div class="container">
+          <header class="masthead clearfix">
+
+            <div>
+              <img src="{{ site.baseurl }}/images/cover.jpg" alt="profile" class="profile-image"/>
+            </div>
+
+            <div class="site-info">
+              <a href="{{ site.baseurl }}"><h3 class="site-name">{{ site.name }}</h3></a>
+            </div>
+
+          </header>
+        </div>
+      </div>
+
+      <div id="main" role="main" class="container">
+        {{ content }}
+      </div>
+    </div>
+    {% include analytics.html %}
+  </body>
+</html>

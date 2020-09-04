@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<!-- <h1>Articles</h1> -->
+
+<div class="posts">
+
+  {% for post in site.posts %}
+    <a href="{{ site.baseurl }}{{ post.url }}" class="post">
+
+      <div class="thumbnail" style="background: url({{ post.thumbnail }})"></div>
+
+      <h1><span>{{ post.title }}</span></h1>
+
+      <!-- <div class="entry">
+        {{ post.excerpt | slice: 0, 60 }}...
+      </div> -->
+
+
+    </a>
+  {% endfor %}
+  
+</div>
+
+<!-- <h1>Music</h1>
+
+<div class="soundcloud-tracks">
+  <iframe width="100%" height="120" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/869526826&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/crackden_music" title="CRACKDEN" target="_blank" style="color: #cccccc; text-decoration: none;">CRACKDEN</a> · <a href="https://soundcloud.com/crackden_music/5am-extended-mix" title="5.A.M (Extended Mix)" target="_blank" style="color: #cccccc; text-decoration: none;">5.A.M (Extended Mix)</a></div>
+
+  <iframe width="100%" height="120" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/565314630&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/crackden_music" title="CRACKDEN" target="_blank" style="color: #cccccc; text-decoration: none;">CRACKDEN</a> · <a href="https://soundcloud.com/crackden_music/need-to-feel-lovedcrackdens-club-remixmp3" title="Need to Feel Loved(Crackden&#x27;s Club Remix)" target="_blank" style="color: #cccccc; text-decoration: none;">Need to Feel Loved(Crackden&#x27;s Club Remix)</a></div>
+
+  <iframe width="100%" height="120" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/306809502&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/crackden_music" title="CRACKDEN" target="_blank" style="color: #cccccc; text-decoration: none;">CRACKDEN</a> · <a href="https://soundcloud.com/crackden_music/technicality" title="Technicality" target="_blank" style="color: #cccccc; text-decoration: none;">Technicality</a></div>
+  
+  <iframe width="100%" height="120" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/308353713&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/crackden_music" title="CRACKDEN" target="_blank" style="color: #cccccc; text-decoration: none;">CRACKDEN</a> · <a href="https://soundcloud.com/crackden_music/dexterz-high" title="Dexterz High" target="_blank" style="color: #cccccc; text-decoration: none;">Dexterz High</a></div>
+
+  <iframe width="100%" height="120" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/338686572&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/crackden_music" title="CRACKDEN" target="_blank" style="color: #cccccc; text-decoration: none;">CRACKDEN</a> · <a href="https://soundcloud.com/crackden_music/beyond" title="Beyond (Extended Mix)" target="_blank" style="color: #cccccc; text-decoration: none;">Beyond (Extended Mix)</a></div>
+</div> -->

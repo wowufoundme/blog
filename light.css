@@ -1,0 +1,17 @@
+html[data-theme="light"] {
+  --PRIMARY-BACKGROUND-COLOR: #ffffff;
+  --PRIMARY-TEXT-COLOR: #2e2e2e;
+  --PRIMARY-GREY: #a1a1a1;
+  --SECONDARY-GREY: #c8c8c8;
+  --ACCENT: #0d5994;
+  --WHITE: #ffffff;
+}
+
+html[data-theme="dark"] {
+  --PRIMARY-BACKGROUND-COLOR: #101010;
+  --PRIMARY-TEXT-COLOR: #ffffff;
+  --PRIMARY-GREY: #a1a1a1;
+  --SECONDARY-GREY: #c8c8c8;
+  --ACCENT: #74b9ff;
+  --WHITE: #ffffff;
+}
