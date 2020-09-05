@@ -2,6 +2,7 @@
 layout: post
 title: Serverless or Debug APK for React Native Development
 thumbnail: https://cdn-images-1.medium.com/max/800/1*wyxuq21keffc5b0d_lMkUw.jpeg
+theme: tile-red
 ---
 
 So I have been working on React Native for a long time, now and no one actually asked me this till I actually asked myself, “So every time, I have to create a signed APK to test it on another device?”. 

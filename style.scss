@@ -43,8 +43,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 
   line-height: 1.7;
-  margin: 1em 0 15px;
-  padding: 0;
+  padding: 0.6em 0;
 
   @include mobile {
     line-height: 1.4;
@@ -257,6 +256,8 @@ nav {
 .post-title {
   font-family: $cG;
   font-size: 2.8rem;
+  background-color: #f0f8ff;
+  padding-left: 12px;
 
   @include mobile {
     font-size: 1.6rem;
@@ -310,6 +311,57 @@ footer {
   width: 280px;
   height: auto;
   border-radius: 50%;
+}
+
+// CUSTOM TILES
+
+.tile {
+  background-color: inherit;
+  transition: all 0.2s ease-in-out;
+}
+
+.tile:hover {
+  background-color: black !important;
+}
+
+.tile-blue {
+  background-color: #341f97;
+}
+
+.tile-blue > h1 {
+  color: #ffffff;
+}
+
+.tile-light-green {
+  background-color: #05c46b;
+}
+
+.tile-light-green > h1 {
+  color: $white;
+}
+
+.tile-dark {
+  background-color: #1e272e;
+}
+
+.tile-dark > h1 {
+  color: $white;
+}
+
+.tile-red {
+  background-color: #ff3f34;
+}
+
+.tile-red > h1 {
+  color: $white;
+}
+
+.tile-light-blue {
+  background-color: #4bcffa;
+}
+
+.tile-light-blue > h1 {
+  color: $white;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
