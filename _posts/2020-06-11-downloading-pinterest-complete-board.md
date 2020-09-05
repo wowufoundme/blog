@@ -2,6 +2,7 @@
 layout: post
 title: Download a complete Pinterest Board
 thumbnail: https://i.imgur.com/9IijWIw.png
+theme: tile-light-green
 ---
 
 So recently I thought of downloading a complete pinterest board and scrapped the whole internet to find a way to do that.

@@ -2,6 +2,7 @@
 layout: post
 title: Fix audio errors in Ubuntu 18.04 with alsamixer
 thumbnail: https://thepracticaldev.s3.amazonaws.com/i/ngrqy7f6orzk8hgo4r93.png
+theme: tile-dark
 ---
 
 Recently I installed Ubuntu 18.04 on my laptop having an SSD and an internal HDD. Soon after fixing a lot of issues, I encountered through this one and thought maybe a lot of people are going through this. So,why not write about it?
