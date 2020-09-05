@@ -7,9 +7,9 @@ layout: default
 <div class="posts">
 
   {% for post in site.posts %}
-    <a href="{{ site.baseurl }}{{ post.url }}" class="post">
+    <a href="{{ site.baseurl }}{{ post.url }}" class="post tile {{ post.theme }}">
 
-      <div class="thumbnail" style="background: url({{ post.thumbnail }})"></div>
+      <div class="thumbnail" style="background: url({{ post.thumbnail }} )"></div>
 
       <h1><span>{{ post.title }}</span></h1>
 
